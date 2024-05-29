@@ -10,8 +10,8 @@ const Semaforo = () => {
                 onClick={() => setColorActivo("rojo")}
             ></div>
             <div 
-                className={`luz ${colorActivo === "naranjo" ? "naranjo brillo" : ""}`} 
-                onClick={() => setColorActivo("naranjo")}
+                className={`luz ${colorActivo === "amarillo" ? "amarillo brillo" : ""}`} 
+                onClick={() => setColorActivo("amarillo")}
             ></div>
             <div 
                 className={`luz ${colorActivo === "verde" ? "verde brillo" : ""}`} 
